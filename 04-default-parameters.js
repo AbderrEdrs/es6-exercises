@@ -1,5 +1,5 @@
-// The way we previously dealt with optional arguments in JavaScript was with the
-// || operator:
+// La façon utilisé pour les arguments facultatifs avant en JavaScript était
+// l'opérateur ||:
 
 
 var myRide = {
@@ -10,20 +10,17 @@ var myRide = {
   driveTo: function ( place ) {
     this.location = place || "Home"
   }
-}
+};
 
-myRide.driveTo("Walmart")
-myRide.location // "Walmart"
+myRide.driveTo("Walmart");
+myRide.location; // "Walmart"
 
 // vs...
 
-myRide.driveTo()
-myRide.location // "Home"
+myRide.driveTo();
+myRide.location; // "Home"
 
 
 
-// TODO: Convert the driveTo method to use correct optional parameters
+// TODO: Re-écris la fonction driveTo pour déclarer des paramètres facultatifs proprement
 
-
-// Bonus! Can you think of a way to handle falsy values and the || operator?
-// with ES5 style optional arguments?

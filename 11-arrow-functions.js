@@ -1,5 +1,6 @@
-// Write an expression using higher-order array methods (say, filter and reduce)
-// to compute the total value of the machines in the inventory array.
+
+// Écrivez une expression en utilisant des méthodes map, filter and reduce
+// pour calculer la valeur totale des machines dans le tableau d'inventaire.
 
 const inventory = [
   {type:   "machine", value: 5000},
@@ -11,6 +12,4 @@ const inventory = [
 
 let totalMachineValue = YOUR_CODE_HERE
 
-console.log(totalMachineValue)
-
-// source: http://marijnhaverbeke.nl/talks/es6_falsyvalues2015/exercises/#Accounting
+console.log(totalMachineValue);

@@ -1,23 +1,21 @@
-// Simplify these three functions by using the spread syntax.
+// Simplifiez ces trois fonctions en utilisant la spread syntax.
 
-// The first one, replace, replaces part of an array with elements from another
-// array.
+// La première fonction, remplace, remplace une partie d'un tableau avec des éléments d'un autre
+// tableau.
 
 function replace(array, from, to, elements) {
-    array.splice.apply(array, [from, to - from].concat(elements))
+    array.splice.apply(array, [from, to - from].concat(elements));
 }
 
-let testArray = [1, 2, 100, 100, 6]
-replace(testArray, 2, 4, [3, 4, 5])
-console.log(testArray)
+let testArray = [1, 2, 100, 100, 6];
+replace(testArray, 2, 4, [3, 4, 5]);
+console.log(testArray);
 
-// The second one, copyReplace, does the same, but creates a new array rather
-// than modifying its argument.
+// la deuxième, copyReplace, Fait de même, mais crée un nouveau tableau plutôt
+// que de modifier son argument.
 
 function copyReplace(array, from, to, elements) {
     return array.slice(0, from).concat(elements).concat(array.slice(to))
 }
 
-console.log(copyReplace([1, 2, 100, 200, 6], 2, 4, [3, 4, 5]))
-
-// source: http://marijnhaverbeke.nl/talks/es6_falsyvalues2015/exercises/#Spread_out
+console.log(copyReplace([1, 2, 100, 200, 6], 2, 4, [3, 4, 5]));

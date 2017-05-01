@@ -1,14 +1,11 @@
-// Does the fact that account is constant mean that we can't update password?
-// Why, or why not? And if not, how could we make it so that we can't?
-// Hint: Thing to google is object freeze
+// Le fait que account est constant signifie-t-il que nous ne pouvons pas mettre à jour le password ?
+// Pourquoi ou pourquoi pas? Et sinon, comment faire pour que nous ne puissions pas le modifier ?
 
 const account = {
   username: "marijn",
   password: "xyzzy"
-}
+};
 
-account.password = "s3cret" // (*much* more secure)
+account.password = "s3cret"; // (*much* more secure)
 
-console.log(account.password)
-
-// source: http://marijnhaverbeke.nl/talks/es6_falsyvalues2015/exercises/#Constant_non-constance
+console.log(account.password);

@@ -1,18 +1,18 @@
-// Given the data in the starting code, use a template string to produce the
-// following string. Make sure the numbers, names, and team name actually come
-// from the data.
+// Compte tenu des données dans le code de départ, utilisez une template string pour produire la
+// chaîne suivante. Assurez-vous que les nombres, les noms et le nom de l'équipe viennent effectivement
+// à partir des données.
 
-//     There are 4 people on the tooling team.
-//     Their names are Jennie, Ronald, Martin, Anneli.
+// Il y a 4 personnes dans l'équipe tooling.
+// Leurs noms sont Jennie, Ronald, Martin, Anneli.
 
-const teamName = "tooling"
+const teamName = "tooling";
 const people = [{name: "Jennie", role: "senior"},
                 {name: "Ronald", role: "junior"},
                 {name: "Martin", role: "senior"},
-                {name: "Anneli", role: "junior"}]
+                {name: "Anneli", role: "junior"}];
 
-let message = YOUR_CODE_HERE
+let message = YOUR_CODE_HERE;
 
-console.log(message)
+console.log(message);
 
-// source: http://marijnhaverbeke.nl/talks/es6_falsyvalues2015/exercises/#The_tooling_team
+

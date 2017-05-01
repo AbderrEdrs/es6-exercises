@@ -1,13 +1,10 @@
-// Write a class called Point, which represents a point in two-dimensional space.
-// A point has x and y properties, given as arguments to its constructor.
+// Écrivez une classe appelée Point, qui représente un point dans l'espace bidimensionnel.
+// Un point a des propriétés x et y, sous la forme d'arguments pour son constructeur.
 
-// It also has a single method plus, which takes another point and returns the sum
-// of the two points, that is, a new point whose x is the sum of the x properties
-// of the two original points, and whose y is the sum of their y properties.
+// Il a également une méthode unique "plus, qui prend un autre point et renvoie la somme
+// des deux points, c'est-à-dire un nouveau point dont "x" est la somme des propriétés "x"
+// des deux points originaux, et dont y est la somme des propriétés "y".
 
 // Your code here
 console.log(new Point(1, 2).plus(new Point(2, 1)))
 // → Point{x: 3, y: 3}
-
-
-// source: http://marijnhaverbeke.nl/talks/es6_falsyvalues2015/exercises/#Point
